@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0152A25A-404C-47B3-944C-4F1062D220C9}</ProjectGuid>
+    <ProjectGuid>{AB4F2CB3-988F-49FA-B26E-59F1C1E724BE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Variavel</RootNamespace>
-    <AssemblyName>01_Variavel</AssemblyName>
+    <RootNamespace>_08_ConversaoTextoParaNumero</RootNamespace>
+    <AssemblyName>08_ConversaoTextoParaNumero</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
