@@ -19,10 +19,7 @@ namespace WolfSystem
             eReparo = Console.ReadLine();
             s = true;
             n = false;
-            if (eReparo = true)
-            {
-
-            }
+            
             Console.ReadKey();
         }
     }

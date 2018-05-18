@@ -15,11 +15,9 @@ namespace WolfSystem
             Console.WriteLine("4. Manutenção de equipamento.");
             Console.WriteLine("");
             eOpcao = Console.ReadLine();
-            byte opcao1 = byte.Parse(eOpcao);
-            byte opcao2 = byte.Parse(eOpcao);
-            byte opcao3 = byte.Parse(eOpcao);
-            byte opcao4 = byte.Parse(eOpcao);
-            if (opcao4 == 4) {
+            byte sOpcao = byte.Parse(eOpcao);
+            
+            if (sOpcao == 4) {
                 Console.Clear();
                 Manutencao.Equipamento();
             }
