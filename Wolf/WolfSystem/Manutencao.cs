@@ -10,16 +10,23 @@ namespace WolfSystem
         {
             string eNSerie;            
             string eReparo;
-            bool s;
-            bool n;
             Console.WriteLine("Digite o número de série do equipamento");
             eNSerie = Console.ReadLine();
             int sNSerie = int.Parse(eNSerie);
-            Console.WriteLine("O equipamento foi reparado? (s/n)");
+            Console.WriteLine("O equipamento foi reparado?");
+            Console.WriteLine("");
+            Console.WriteLine("1. Sim");
+            Console.WriteLine("2. Não");
             eReparo = Console.ReadLine();
-            s = true;
-            n = false;
-            
+            byte sReparo = byte.Parse(eReparo);
+            if (sReparo == 1)
+            {
+                Console.WriteLine("EQUIPAMENTO ENCAMINHADO PARA ESTOQUE!");
+            }
+            else
+            {
+                Console.WriteLine("EQUIPAMENTO ENCAMINHADO PARA SUCATA!");
+            }
             Console.ReadKey();
         }
     }

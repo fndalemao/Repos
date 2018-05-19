@@ -17,6 +17,11 @@ namespace WolfSystem
             eOpcao = Console.ReadLine();
             byte sOpcao = byte.Parse(eOpcao);
             
+            if (sOpcao == 1)
+            {
+                Console.Clear();
+                Registro.RegistrarEquipamento();
+            }
             if (sOpcao == 4) {
                 Console.Clear();
                 Manutencao.Equipamento();

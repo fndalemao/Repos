@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WolfSystem.Equipamentos
 {
-    class PainelLED
+    public class PainelLED
     {
         public string fabricante;
         public string modelo;
